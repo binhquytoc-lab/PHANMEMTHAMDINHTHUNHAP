@@ -10,7 +10,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("🏦 ỨNG DỤNG TÍNH CHỈ SỐ DTI")
+st.title("🏦 PHẦN MỀM THẨM ĐỊNH THU NHẬP KHÁCH HÀNG_TS. VŨ ĐỨC BÌNH")
 st.write(
     "Nhập thông tin khoản vay và thu nhập của khách hàng "
     "để tính chỉ số DTI."
