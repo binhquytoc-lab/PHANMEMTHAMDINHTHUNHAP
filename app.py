@@ -163,12 +163,12 @@ if st.button("🧮 TÍNH CHỈ SỐ DTI", type="primary",
 
         # ======================================
         # KẾT LUẬN THEO YÊU CẦU
-        # DTI < 70%: KHÔNG ĐƯỢC VAY
-        # DTI >= 70%: ĐƯỢC VAY
+        # DTI < 70%: ĐƯỢC VAY
+        # DTI >= 70%: KHÔNG ĐƯỢC VAY
         # ======================================
         if DTI < 0.7:
             st.error(
-                "❌ KẾT LUẬN: KHÔNG ĐƯỢC VAY"
+                " ✅ KẾT LUẬN: ĐƯỢC VAY"
             )
             st.write(
                 "Lý do: Chỉ số DTI nhỏ hơn 70% "
@@ -176,7 +176,7 @@ if st.button("🧮 TÍNH CHỈ SỐ DTI", type="primary",
             )
         else:
             st.success(
-                "✅ KẾT LUẬN: ĐƯỢC VAY"
+                "❌ KẾT LUẬN: KHÔNG ĐƯỢC VAY"
             )
             st.write(
                 "Lý do: Chỉ số DTI lớn hơn hoặc bằng 70% "
